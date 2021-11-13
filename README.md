@@ -5,13 +5,16 @@ Used YOLO pre-trained model trained on COCO dataset. That pre-trained model also
 # Various Parameter:
 
 confidence_value for bounding box= 0.3
+
 NMS_Threshold Value= 0.3       (to suppress weak detections)
+
 Computed Euclidean Distance between the bounding boxes and if that Distance is less than 50 pixels, consider it as a Social DIstancing violation. Red bounding box is used for that, otherwise Green bounding box is shown for compliance with Social Distance.
 
 # Downloading YOLO pre-trained weights
 
 YOLO pre-trained weights can be downloaded from the following link: 
-https://pjreddie.com/darknet/yolo/
+
+`https://pjreddie.com/darknet/yolo/`
 
 Config File is already provided in the Github repo.
 
